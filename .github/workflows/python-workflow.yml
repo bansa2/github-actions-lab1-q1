@@ -9,8 +9,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4 
-    - name: list file
-      run: ls -ltr
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
       with:
